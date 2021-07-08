@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Sans;
+    src: url(fonts/SourceSansPro-BoldItalic.ttf);
+} 
+blockquote {font-family: sans;}
+
+.h1 {color: #eaaee8; }
+.h3 {color: #F6E4EC}
+.p {color: #F6E4EC}
+main p:first-child::first-letter {font-size: 150%;}
+main p:first-child::first-letter {font-weight: bold;}
+main #p {text-indent: 2em;}
+
+a { 
+    text-decoration: none;
+    color:antiquewhite; 
+}
+/*boxmodelforreflectionp*/
+body {border: none;
+margin: 5px;}
+header {
+    padding: 10px;
+}
+main {
+    border: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+/*stylegrid*/
+
+header {
+    display: inline;
+    vertical-align:center ;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 50% 50%;
+    gap: 150px 5px;
+  }
+  .grid {
+  grid-template-areas: 
+  'item1'
+  'item2'
+  'item3';
+}
+
+  .item1 {
+  
+  }
+  
+  .item2 {
+ 
+  
+  }
+  .item3 {
+ 
+
+  }
+  
+  @media (max-width: 600px) { 
+    .grid {
+      grid-template-areas:
+        'item1'
+        'item2'
+        'item3';
+         }
+  }
+
+  /*responsive web queries*/
+  @media screen and (max-width:640px){
+      header {position: relative;
+    height: 40px;
+    display: block;
+    width: 100%;}
+  
+    #container {width: 100%}
+    #item1 {
+        width: 25%;
+    }
+    #item2 {
+        width: 50%;
+    }
+#item3 {
+    width: 25%;
+}
+img {
+    width: 100%;
+}
+  }
+
+  @media screen and (max-width:640px){
+    #item1 {
+        width: 100%;
+    }
+    #item2 {
+        width: 100%;
+    }
+#item3 {
+    width: 100%;
+} 
+  } 
+
+@media screen and (max-width:320px){
+    #container {
+        width: 320px;
+    }
+}
+
+/*added grid index to all pages july 7*/
+div#container {
+    margin: 10px auto;
+    width: auto;
+}
+header {
+    min-height: 80px;
+
+}
+#main {
+    min-height: 300px;
+    min-width: 200px;
+}
