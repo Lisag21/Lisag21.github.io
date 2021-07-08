@@ -121,3 +121,32 @@ header {
     min-height: 300px;
     min-width: 200px;
 }
+/*print stylesheet*/
+@media print {
+* {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+.nav {
+    display: none;
+}
+.footer {
+    display: none;
+}
+.main-header {
+    margin-bottom: 0;
+    border: none;
+    text-align: center;
+}
+a [href]::after {
+    content: "{" attr(href)"]"
+}
+@page {
+    margin: .5cm;
+}
+@page :first{
+    margin-top: 2cm;
+}
+}
