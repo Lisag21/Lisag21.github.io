@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <!---Lisa Galpin 2021 ran html check 7/7 kept showing line 11 unclosed ul class=nav-->
+  <!---7/7 mobile nav updated-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav.css">
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width,initial-scale=1">
+ <style>
+.box {
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.image1big {
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index: 10;
+}
+.image1:hover + .image1big {
+    width: 200px;
+}
+.phone1:hover + .phone1big {
+    width: 200px;
+}
+.phone1big {
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index: 10;
+}
+</style>
+                <title>Projects</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="main-nav">
+
+  <label id="hamburger">&#9776;</label>
+  <ul class=".nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="reflection.html">Reflection</a></li>
+      <li><a href="#contact.html">Contact</a></li>
+      <li class="lastitem"><a href="#projects.html">Projects</a>
+          <ul id="mobileHide">
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+          </ul>
+          </li>
+        </nav>
+
+<header class="main-head"><h1 class="h1">Welcome</h1></header>
+
+<article class="content">
+
+  <h1 class="h1">Competency 1: Design Learning Environment</h1>  
+ 
+  <p class="p">Within my classroom I use lesson plan forms that students have to use to plan their preschool lesson. The preschool laboratory class (Child Care Services), where I teach and supervise high school students teaching preschool aged children. The high school students are required to fill out a lesson plan for each of the curriculum areas that they are responsible for covering that day: read an age appropriate book, focused learning activity on either math, science, social studies, or fine motor skills, art activity, and a closing game. They use resources that they have been given to properly fill out the objectives, goals, description, etc. and are required to turn these into me in advance of their teaching date. This ensures that the students are meeting all of the standards that are set in place for the preschool learning environment as well as teaching the high school students how to prepare, plan and instruct at this age level. </p>
+ 
+  <p style="color:#F4A9CB;"><font-family: sans;> Reflection: This has been a great tool in my class, it has allowed me to give feedback to the high school students on where they need to improve and prepare more as well as to be able to provide the preschool families a daily guideline of activities for each day so that if they want to, they can reinforce these at home. 
+</p>
+</font-family: sans;>
+</article>
+
+<aside class="side">
+  Artifact: Lesson Plan Outline
+
+<img src="artifact1.jpg" alt="artifact1" class="responsive" width="400" height="550">
+</aside>
+<footer class="main-footer"> 
+  <div class="box">
+  
+       Lisa Galpin Copyright 2021
+       <br>
+      <a href="https://outlook.office.com/mail/inbox">
+      <img class="image1" src="images/icons8-email-32.png" alt="image1">
+      <img class="image1big" src="images/icons8-email-32.png" alt="image1big">
+      lmggbr@umsystem.edu</a>
+     
+      <img class="phone1" src="images/icons8-phone-50.png" alt="phone1">
+      <img class="phone1big" src="images/icons8-phone-50.png" alt="phone1big">
+      1+888-888-8888 </br>
+     <br> <a target="_blank" href="https://icons8.com/icon/42800/email">Email</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+     <a href="https://icons8.com/icon/pJ6kjoNY5Ixr/phone">Phone icon by Icons8</a>
+  </br>
+  </div>
+  </footer>
+  </body>
+  </html>
