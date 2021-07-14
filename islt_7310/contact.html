@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!---Lisa Galpin 2021 -ran html check 7/7 kept showing line 11 unclosed ul class=nav-->
+           <!---7/7 updated mobile nav and one column grid-->
+<!--/*favicon added july 8*//*footer image added july */-->
+
+
+<style type="text/css">
+    label { 
+      font-size:20px; 
+      color: #f2f2f2; 
+      font-weight:bold; 
+      font-style:bold;
+      text-align: left;
+    }</style>
+
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+    <title>Contact</title>
+
+<link rel="shortcut icon" type="image/png" href="images/favicon (1).ico">
+
+
+<style>
+.box {
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.image1big {
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index: 10;
+}
+.image1:hover + .image1big {
+    width: 200px;
+}
+.phone1:hover + .phone1big {
+    width: 200px;
+}
+.phone1big {
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index: 10;
+}
+</style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <nav class="main-nav">
+            <label id="hamburger">&#9776;</label>
+            <ul class="nav">
+
+         <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="lastitem"><a href="project.html">Projects</a>
+            <ul id="mobileHide">
+                <li><a href="#artifact1">Link 1</a></li>
+                <li><a href="#artifact2">Link 2</a></li>
+                <li><a href="#artifact3">Link 3</a></li>
+            </ul>
+            </li>
+        </nav>
+        
+<header class="main-head"><h1 class="h1">Let's Connect</h1></header>
+<main>
+    <form action="mailto:lmggbr@missouri.edu?Subject=Professional%20Website%20Contact" method="post" enctype="text/plain">
+    <div>
+    <label>First Name
+        <input type="text" name="First Name" autofocus required></label>
+    </div>
+<div>
+    <label><color=#white;>Last Name<input type="text" name="Last Name" required></label>
+</div>
+    <label>Email<input type="text" name="Email" required></label>
+</div>
+<div>
+    <label>Message<input type="text" name="Message" required></label>
+    <br>
+    <button type="submit">Submit</bold></button>
+</form>
+</main>
+<footer class="main-footer"> 
+    <div class="box">
+    
+         Lisa Galpin Copyright 2021
+         <br>
+         <form action="mailto:lmggbr@missouri.edu" method="post" enctype="text/plain"></form>
+        <a href="mailto:lmggbr@missouri.edu">
+        <img class="image1" src="images/icons8-email-32.png" alt="image1">
+        <img class="image1big" src="images/icons8-email-32.png" alt="image1big">
+        lmggbr@umsystem.edu</a>
+       
+        <img class="phone1" src="images/icons8-phone-50.png" alt="phone1">
+        <img class="phone1big" src="images/icons8-phone-50.png" alt="phone1big">
+        1+888-888-8888 </br>
+       <br> <a target="_blank" href="https://icons8.com/icon/42800/email">Email</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+       <a href="https://icons8.com/icon/pJ6kjoNY5Ixr/phone">Phone icon by Icons8</a>
+    </br>
+    </div>
+    </footer>
+
+</body>
+</html>
