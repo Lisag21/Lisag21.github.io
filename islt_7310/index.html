@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+       <!---Lisa Galpin 2021 ran html check 7/25 shows unclosed div class wrapper but is closed at bottom of page-->
+           <!---7/7 updated mobile nav and one column grid-->
+<!--/*favicon added july 8*//*footer image added july */-->
+      
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+    <title>Overview</title>
+
+    <link rel="shortcut icon" type="image/png" href="images/favicon(1).ico">
+
+
+<style>
+.box {
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.image1big {
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index: 10;
+}
+.image1:hover + .image1big {
+    width: 200px;
+}
+.phone1:hover + .phone1big {
+    width: 200px;
+}
+.phone1big {
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index: 10;
+}
+</style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <nav class="main-nav">
+            <label id="hamburger">&#9776;</label>
+            <ul class="nav">
+
+         <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="lastitem"><a href="project.html">Projects</a>
+            <ul id="mobileHide">
+                <li><a href="#">Comp 1</a></li>
+                <li><a href="#">Comp 2</a></li>
+                <li><a href="#">Comp 3</a></li>
+            </ul>
+        </li>
+        </ul>
+      </nav>
+        
+    <header class="main-head"><h1 class="h1">Hello Everyone</h1></header>
+    
+    <article class="content">
+    <p class="p">Where we focus on the total development of each child. In all of the child development focus courses of FCS our goal is to understand the total development of the child ages 3-5 covering the physical, intellectual, emotional, and social areas. While also focusing on the younger ages of development, the high school students can expect to learn transferable employ ability skills in school, community, and workplace settings. The projects you will see are based in the Child Care Services course that is offered at MTHS. While teaching the preschool, MTHS students will receive hands-on career experience within early childhood, education, and related services. The students are responsible for analyzing developmentally appropriate practices to plan for early childhood, education, and related services under my supervision. This website will help you to understand the expectations of the course, and what it looks like in action.</p>
+
+  <table> 
+    <caption><strong>Course Offerings</strong></caption>
+        <tr>
+            <th>Child Development</th>
+            <th>Child Care Services</th>
+            <th>Early Childhood Education</th>
+        </tr>
+        <tr>
+            <td>Grade 10-12</td>
+            <td>Grade 11 and 12</td>
+            <td>Grade 11 and 12</td>
+        </tr>
+        <tr>
+            <td>Fall Semester</td>
+            <td>Spring Semester</td>
+            <td>Spring Semester</td>
+        </tr>
+</table>
+</article>
+
+
+   
+<aside class="side">
+    <h3 class= "h3">Welcome to Family and Consumer Sciences with Mrs. Lisa Galpin!</h3> 
+</aside>
+
+<footer class="main-footer"> 
+    <a href="sitemap.xml">Sitemap</a>
+<div class="box">
+
+     Lisa Galpin Copyright 2021
+     <br>
+     <form action="mailto:lmggbr@missouri.edu" method="post" enctype="text/plain"></form>
+        <a href="mailto:lmggbr@missouri.edu">
+    <img class="image1" src="images/icons8-email-32.png" alt="image1">
+    <img class="image1big" src="images/icons8-email-32.png" alt="image1big">
+    lmggbr@umsystem.edu</a>
+   
+    <img class="phone1" src="images/icons8-phone-50.png" alt="phone1">
+    <img class="phone1big" src="images/icons8-phone-50.png" alt="phone1big">
+    1+888-888-8888 
+   <br> <a target="_blank" href="https://icons8.com/icon/42800/email">Email</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+   <a href="https://icons8.com/icon/pJ6kjoNY5Ixr/phone">Phone icon by Icons8</a>
+
+</div>
+</footer>
+</div>
+</body>
+</html>
